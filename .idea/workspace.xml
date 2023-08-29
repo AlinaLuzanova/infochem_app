@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/иконка приложения.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/Image.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreen.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreen.imageset/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreenBackground.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreenBackground.imageset/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PersonalArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/periodicTable/MendellevScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/periodicTable/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets/styles/funcoesOrganicasStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/assets/styles/funcoesOrganicasStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DrawerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MendeleevDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MendeleevStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/getBgColorByGroupBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/getBgColorByGroupBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigations/AppNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/AppNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/CameraScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CameraScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HistoryScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HistoryScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/LoginScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/MendeleevScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MendeleevScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ModalScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ModalScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/SignupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SignupScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ios/Pods/FirebaseCore/FirebaseCore/Extension/FirebaseCoreInternal.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ios/Pods/FirebaseInstallations/FirebaseCore/Extension/FirebaseCoreInternal.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OkJWvcPfhbnpwzMyJXWU6tnwnZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alina/WebstormProjects/App_Infochem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens/periodicTable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sstart" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sstart" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.sstart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="" />
+      <created>1682098683382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682098683382</updated>
+      <workItem from="1682098687645" duration="54000" />
+      <workItem from="1682106791841" duration="11203000" />
+      <workItem from="1682264634962" duration="1258000" />
+      <workItem from="1682274407190" duration="915000" />
+      <workItem from="1682276077453" duration="1770000" />
+      <workItem from="1693224299016" duration="15146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
