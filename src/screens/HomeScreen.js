@@ -9,7 +9,7 @@ function HomeScreen({navigation}) {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: 'Ручной ввод',
+      title: ' ',
     });
   }, []);
 

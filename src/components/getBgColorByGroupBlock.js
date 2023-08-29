@@ -13,7 +13,7 @@ const bgColor = (props) => {
         return '#73C6B6';
       case 'Полуметалл':
         return '#85C1E9';
-      case 'Галлоген':
+      case 'Галоген':
         return '#17A589';
       case 'Инертный газ':
         return '#A569BD';

@@ -1,4 +1,6 @@
+
 import { StyleSheet } from 'react-native';
+import {AppStyles} from "../AppStyles";
 
 export const MendeleevStyles = StyleSheet.create({
   container: {
@@ -8,7 +10,7 @@ export const MendeleevStyles = StyleSheet.create({
     marginBottom: 50,
     flexDirection: 'column',
     justifyContent: 'flex-end',
-    backgroundColor: '#FFFDF0'
+    backgroundColor: AppStyles.color.background,
   },
   sviewContainer: {
     height: '100%',

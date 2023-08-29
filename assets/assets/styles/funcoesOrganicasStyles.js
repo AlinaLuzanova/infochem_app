@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 export const foStyles = StyleSheet.create({
     container: {
-        marginLeft: 21,
         marginRight: 21,
         marginLeft:20
     },

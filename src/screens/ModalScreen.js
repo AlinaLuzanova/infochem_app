@@ -11,9 +11,9 @@ export default function FetchElemento(props) {
 
   useEffect(() => {
     switch (elemento.standardState) {
-      case 'Газообразный':
+      case 'Газ':
         return setIcoStandardState(require("../../assets/assets/images/icons/gasoso.png"));
-      case 'Твердый':
+      case 'Твердое':
         return setIcoStandardState(require("../../assets/assets/images/icons/solido.png"));
       case 'Жидкий':
         return setIcoStandardState(require("../../assets/assets/images/icons/liquido.png"));

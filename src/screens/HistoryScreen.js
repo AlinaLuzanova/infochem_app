@@ -9,7 +9,7 @@ function HistoryScreen({navigation}) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: 'История поиска',
+            title: ' ',
         });
     }, []);
 

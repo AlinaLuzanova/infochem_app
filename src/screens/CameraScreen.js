@@ -3,19 +3,21 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Camera } from 'expo-camera'
 import {TouchableOpacity} from "react-native-gesture-handler";
 import {connect} from "react-redux";
+import {AppStyles} from "../AppStyles";
 const CameraScreen = ({navigation}) => {
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: 'Camera',
+            title: ' ',
         });
     }, []);
     return (
         <View style={styles.container}>
             <Camera style={styles.camera}>
-                <Text style={styles.comment}>Поместите формулу в белое окошко</Text>
+                <Text style={styles.comment}>Поместите формулу в прямоугольник</Text>
                 <View style={styles.formula}></View>
-                <TouchableOpacity onPress={()=> {}} style={styles.snapContainer}>
-                    <Text style={styles.snap}>  Щелк</Text>
+                <TouchableOpacity onPress={()=> {}} style={styles.snapContainerBig}>
+                    <TouchableOpacity onPress={()=> {}} style={styles.snapContainer}>
+                </TouchableOpacity>
                 </TouchableOpacity>
             </Camera>
         </View>
@@ -32,15 +34,15 @@ const styles = StyleSheet.create({
     comment: {
         alignItems: "center",
         color: "white",
-        marginBottom: 70
+        marginBottom: '10%'
     },
     formula: {
         align: "center",
-        width: 310,
+        width: '90%',
         height: 270,
-        borderWidth: 5,
+        borderWidth: 2,
         borderColor: "white",
-        marginBottom: 150
+        marginBottom: '40%'
     },
     camera:{
         flex: 1,
@@ -49,13 +51,24 @@ const styles = StyleSheet.create({
 
     },
     snapContainer: {
-        borderWidth: 8,
-        borderColor: "#ff0000",
-        width: 70,
-        height: 70,
+        borderColor: AppStyles.color.red,
+        width: 75,
+        height: 75,
         borderRadius: 50,
         justifyContent: "center",
-        marginBottom: 20,
+        margin: '5%',
+        backgroundColor: AppStyles.color.red
+
+    },
+    snapContainerBig: {
+        borderWidth: 3,
+        borderColor: AppStyles.color.red,
+        width: 90,
+        height: 90,
+        borderRadius: 50,
+        justifyContent: "center",
+        marginBottom: '5%',
+
 
     },
     }

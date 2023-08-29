@@ -16,58 +16,60 @@ export default function MendeleevScreen() {
         <View style={MendeleevStyles.container}>
             <StatusBar style="dark" />
             <SafeAreaView>
-                <View style={MendeleevStyles.containerInfoTabela}>
-                    <View style={MendeleevStyles.containerGrupos}>
+                <ScrollView horizontal={true} alwaysBounceHorizontal={true} maximumZoomScale={2.0}>
+                    <View style={MendeleevStyles.containerInfoTabela}>
+                        <View style={MendeleevStyles.containerGrupos}>
 
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: Elementos[0].cpkHexColor }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Неметалл </Text>
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: Elementos[0].cpkHexColor }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Неметалл </Text>
+                            </View>
+
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[2]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Щелочной металл</Text>
+                            </View>
+
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[1]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Инертный газ</Text>
+                            </View>
+                        </View>
+                        <View style={MendeleevStyles.containerGrupos}>
+
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[3]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Щелочноземельный металл</Text>
+                            </View>
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[8]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Галоген</Text>
+                            </View>
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[20]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Полупроводник</Text>
+                            </View>
+
                         </View>
 
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[2]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Щелочной металл</Text>
-                        </View>
+                        <View style={MendeleevStyles.containerGrupos}>
 
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[1]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Инертный газ</Text>
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[3]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Щелочноземельный металл</Text>
+                            </View>
+
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[4]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Полуметалл</Text>
+                            </View>
+                            <View style={MendeleevStyles.typeGroup}>
+                                <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[12]) }]} />
+                                <Text style={MendeleevStyles.txtNatm}> Переходный металл</Text>
+                            </View>
                         </View>
                     </View>
-                    <View style={MendeleevStyles.containerGrupos}>
-
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[3]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Щелочноземельный металл</Text>
-                        </View>
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[8]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Галоген</Text>
-                        </View>
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[20]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Полупроводник</Text>
-                        </View>
-
-                    </View>
-
-                    <View style={MendeleevStyles.containerGrupos}>
-
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[3]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Щелочноземельный металл</Text>
-                        </View>
-
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[4]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Полуметалл</Text>
-                        </View>
-                        <View style={MendeleevStyles.typeGroup}>
-                            <View style={[MendeleevStyles.cardGrupo, { backgroundColor: bgColor(Elementos[12]) }]} />
-                            <Text style={MendeleevStyles.txtNatm}> Переходный металл</Text>
-                        </View>
-                    </View>
-                </View>
+                </ScrollView>
                 <View style={MendeleevStyles.containerInfoTabela}>
                     <View style={MendeleevStyles.label}>
                         <Text style={MendeleevStyles.txtLabel}>1</Text>
@@ -188,11 +190,11 @@ export default function MendeleevScreen() {
                 <ScrollView horizontal={true} alwaysBounceHorizontal={true} maximumZoomScale={2.0}>
                     <View style={MendeleevStyles.gruposLAC}>
                         <View style={MendeleevStyles.flac}>
-                            <Text style={[MendeleevStyles.txtLabel, {alignSelf:'center'}]}> Лантанидs </Text>
+                            <Text style={[MendeleevStyles.txtLabel, {alignSelf:'center'}]}> Лантаниды </Text>
                             <ListaElementos group='3' groupBlock="Лантанид" navigation={navigation} />
                         </View>
                         <View style={MendeleevStyles.flac}>
-                            <Text style={[MendeleevStyles.txtLabel, {alignSelf:'center'}]}> Actinídios </Text>
+                            <Text style={[MendeleevStyles.txtLabel, {alignSelf:'center'}]}> Актиниды </Text>
                             <ListaElementos group='3' groupBlock="Актинид" navigation={navigation} />
                         </View>
                     </View>

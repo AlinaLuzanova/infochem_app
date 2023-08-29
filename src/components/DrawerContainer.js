@@ -19,6 +19,14 @@ export default function DrawerContainer({navigation}) {
               }
           }
         />
+        <MenuButton
+            title="Личный кабинет"
+            source={AppIcon.images.logout}
+            onPress={() => {
+              navigation.navigate('LoginStack');
+            }
+            }
+        />
       </View>
     </View>
   );

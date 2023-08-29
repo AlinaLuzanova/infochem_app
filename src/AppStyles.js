@@ -12,7 +12,7 @@ export const AppStyles = {
     title: "#464646",
     subtitle: "#545454",
     categoryTitle: "#161616",
-    tint: "#9ef09c",
+    infochem: "#061198",
     description: "#bbbbbb",
     filterTitle: "#8a8a8a",
     starRating: "#2bdf85",
@@ -51,7 +51,7 @@ export const AppIcon = {
     marginRight: 10
   },
   style: {
-    tintColor: AppStyles.color.tint,
+    tintColor: AppStyles.color.infochem,
     width: 25,
     height: 25
   },
@@ -77,7 +77,7 @@ export const HeaderButtonStyle = StyleSheet.create({
     margin: 6
   },
   rightButton: {
-    color: AppStyles.color.tint,
+    color: AppStyles.color.infochem,
     marginRight: 10,
     fontWeight: "normal",
   }
@@ -85,9 +85,14 @@ export const HeaderButtonStyle = StyleSheet.create({
 
 export const ListStyle = StyleSheet.create({
   title: {
-    fontSize: 16,
+    fontSize: 19,
     color: AppStyles.color.subtitle,
     fontWeight: "bold"
+  },
+  description:{
+    fontSize: 17,
+    color: AppStyles.color.subtitle,
+    fontWeight: "normal"
   },
   subtitleView: {
     minHeight: 55,

@@ -25,13 +25,14 @@ function WelcomeScreen({navigation}) {
       <ActivityIndicator
         style={styles.spinner}
         size="large"
-        color={AppStyles.color.tint}
+        color={AppStyles.color.infochem}
       />
     );
   }
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Добро пожаловать в первую версию приложения)</Text>
+      <Text style={styles.title}>Thotex</Text>
+      <Text style={styles.description}>распознавание молекул по фото</Text>
       <TouchableOpacity
         style={styles.loginContainer}
         onPress={() => navigation.navigate('Войти')}>
@@ -51,16 +52,26 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 150,
+    marginBottom: 170,
   },
   logo: {
     width: 200,
     height: 200,
   },
   title: {
-    fontSize: AppStyles.fontSize.title,
+    fontSize: 55,
     fontWeight: 'bold',
-    color: AppStyles.color.tint,
+    color: AppStyles.color.infochem,
+    marginTop: 20,
+    textAlign: 'center',
+    marginBottom: 20,
+    marginLeft: 20,
+    marginRight: 20,
+  },
+  description: {
+    fontSize: 19,
+    fontWeight: 'normal',
+    color: AppStyles.color.infochem,
     marginTop: 20,
     textAlign: 'center',
     marginBottom: 20,
@@ -70,7 +81,7 @@ const styles = StyleSheet.create({
   loginContainer: {
     alignItems: 'center',
     width: AppStyles.buttonWidth.main,
-    backgroundColor: AppStyles.color.tint,
+    backgroundColor: AppStyles.color.infochem,
     borderRadius: AppStyles.borderRadius.main,
     padding: 10,
     marginTop: 30,
@@ -85,11 +96,11 @@ const styles = StyleSheet.create({
     borderRadius: AppStyles.borderRadius.main,
     padding: 8,
     borderWidth: 1,
-    borderColor: AppStyles.color.tint,
+    borderColor: AppStyles.color.infochem,
     marginTop: 15,
   },
   signupText: {
-    color: AppStyles.color.tint,
+    color: AppStyles.color.infochem,
   },
   spinner: {
     marginTop: 200,

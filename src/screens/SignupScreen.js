@@ -8,6 +8,7 @@ import {login} from '../reducers';
 function SignupScreen({navigation}) {
   const [fullname, setFullname] = useState('');
   const [phone, setPhone] = useState('');
+  const [organization, setOrganization] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -39,6 +40,16 @@ function SignupScreen({navigation}) {
           value={phone}
           placeholderTextColor={AppStyles.color.grey}
           underlineColorAndroid="transparent"
+        />
+      </View>
+      <View style={styles.InputContainer}>
+        <TextInput
+            style={styles.body}
+            placeholder="Организация"
+            onChangeText={setOrganization}
+            value={organization}
+            placeholderTextColor={AppStyles.color.grey}
+            underlineColorAndroid="transparent"
         />
       </View>
       <View style={styles.InputContainer}>
@@ -79,7 +90,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: AppStyles.fontSize.title,
     fontWeight: 'bold',
-    color: AppStyles.color.tint,
+    color: AppStyles.color.infochem,
     marginTop: 20,
     marginBottom: 20,
   },
@@ -97,7 +108,7 @@ const styles = StyleSheet.create({
   },
   loginContainer: {
     width: AppStyles.buttonWidth.main,
-    backgroundColor: AppStyles.color.tint,
+    backgroundColor: AppStyles.color.infochem,
     borderRadius: AppStyles.borderRadius.main,
     padding: 10,
     marginTop: 30,
@@ -125,7 +136,7 @@ const styles = StyleSheet.create({
   facebookContainer: {
     alignItems: 'center',
     width: AppStyles.buttonWidth.main,
-    backgroundColor: AppStyles.color.tint,
+    backgroundColor: AppStyles.color.infochem,
     borderRadius: AppStyles.borderRadius.main,
     padding: 10,
     marginTop: 30,

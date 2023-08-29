@@ -19,53 +19,53 @@ const Stack = createStackNavigator();
 
 // login stack
 const LoginStack = () => (
-  <Stack.Navigator
-    initialRouteName="Начало"
-    screenOptions={{
-      headerTintColor: 'red',
-      headerTitleStyle: styles.headerTitleStyle,
-      headerMode: 'float',
-    }}>
-    <Stack.Screen name="Начало" component={WelcomeScreen} />
-    <Stack.Screen name="Войти" component={LoginScreen} />
-    <Stack.Screen name="Зарегистрироваться" component={SignupScreen} />
+    <Stack.Navigator
+        initialRouteName=" "
+        screenOptions={{
+            headerTintColor: 'red',
+            headerTitleStyle: styles.headerTitleStyle,
+            headerMode: 'float',
+        }}>
+        <Stack.Screen name="Начало" component={WelcomeScreen} />
+        <Stack.Screen name="Войти" component={LoginScreen} />
+        <Stack.Screen name="Зарегистрироваться" component={SignupScreen} />
 
-  </Stack.Navigator>
+    </Stack.Navigator>
 );
 
 const HomeStack = () => (
-  <Stack.Navigator
-    initialRouteName="Home"
-    screenOptions={{
-      headerTintColor: 'red',
-      headerTitleStyle: styles.headerTitleStyle,
-      headerMode: 'float',
-    }}>
-    <Stack.Screen
-      name="Home"
-      component={HomeScreen}
-      options={({navigation}) => ({
-        headerLeft: () => (
-          <Pressable onPress={() => navigation.openDrawer()}>
-            <Image style={styles.iconStyle} source={AppIcon.images.menu} />
-          </Pressable>
-        ),
-        headerLeftContainerStyle: {paddingLeft: 10},
-      })}
-    />
-
-  </Stack.Navigator>
-);
-const CameraStack = () => (
     <Stack.Navigator
-        initialRouteName="Camera"
+        initialRouteName="Home"
         screenOptions={{
             headerTintColor: 'red',
             headerTitleStyle: styles.headerTitleStyle,
             headerMode: 'float',
         }}>
         <Stack.Screen
-            name="Camera"
+            name="Home"
+            component={HomeScreen}
+            options={({navigation}) => ({
+                headerLeft: () => (
+                    <Pressable onPress={() => navigation.openDrawer()}>
+                        <Image style={styles.iconStyle} source={AppIcon.images.menu} />
+                    </Pressable>
+                ),
+                headerLeftContainerStyle: {paddingLeft: 10},
+            })}
+        />
+
+    </Stack.Navigator>
+);
+const CameraStack = () => (
+    <Stack.Navigator
+        initialRouteName=" "
+        screenOptions={{
+            headerTintColor: 'red',
+            headerTitleStyle: styles.headerTitleStyle,
+            headerMode: 'float',
+        }}>
+        <Stack.Screen
+            name=" "
             component={CameraScreen}
             options={({navigation}) => ({
                 headerLeft: () => (
@@ -81,14 +81,14 @@ const CameraStack = () => (
 );
 const HistoryStack = () =>(
     <Stack.Navigator
-        initialRouteName="History"
+        initialRouteName=" "
         screenOptions={{
-        headerTintColor: 'red',
-        headerTitleStyle: styles.headerTitleStyle,
-        headerMode: 'float',
-    }}>
+            headerTintColor: 'red',
+            headerTitleStyle: styles.headerTitleStyle,
+            headerMode: 'float',
+        }}>
         <Stack.Screen
-            name="History"
+            name=" "
             component={HistoryScreen}
             options={({navigation}) => ({
                 headerLeft: () => (
@@ -106,14 +106,14 @@ const HistoryStack = () =>(
 );
 const MendeleevStack = () =>(
     <Stack.Navigator
-        initialRouteName="Mendeleev"
+        initialRouteName=" "
         screenOptions={{
             headerTintColor: 'red',
             headerTitleStyle: styles.headerTitleStyle,
             headerMode: 'float',
         }}>
         <Stack.Screen
-            name="Mendeleev"
+            name=" "
             component={MendeleevScreen}
             options={({navigation}) => ({
                 headerLeft: () => (
@@ -143,86 +143,86 @@ const MendeleevStack = () =>(
 const BottomTab = createBottomTabNavigator();
 
 const TabNavigator = () => (
-  <BottomTab.Navigator
-    initialRouteName="Home"
-    screenOptions={{
-      tabBarInactiveTintColor: 'grey',
-      tabBarActiveTintColor: AppStyles.color.tint,
-      tabBarIcon: ({focused}) => {
-        return (
-          <Image
-            style={{
-              tintColor: focused ? AppStyles.color.tint : AppStyles.color.grey,
-            }}
-            source={AppIcon.images.home}
-          />
-        );
-      },
-      headerShown: false,
-    }}>
-    <BottomTab.Screen
-      options={{tabBarLabel: 'Рисовалка'}}
-      name="HomeStack"
-      component={HomeStack}
-    />
-      <BottomTab.Screen
-          options={{tabBarLabel: 'Камера'}}
-          name="CameraStack"
-          component={CameraStack}
-      />
-      <BottomTab.Screen
-          options={{tabBarLabel: 'История'}}
-          name="HistoryStack"
-          component={HistoryStack}
-      />
-      <BottomTab.Screen
-          options={{tabBarLabel: 'Таблица'}}
-          name="MendeleevStack"
-          component={MendeleevStack}
-      />
-  </BottomTab.Navigator>
+    <BottomTab.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+            tabBarInactiveTintColor: 'grey',
+            tabBarActiveTintColor: AppStyles.color.tint,
+            tabBarIcon: ({focused}) => {
+                return (
+                    <Image
+                        style={{
+                            tintColor: focused ? AppStyles.color.tint : AppStyles.color.grey,
+                        }}
+                        source={AppIcon.images.home}
+                    />
+                );
+            },
+            headerShown: false,
+        }}>
+        <BottomTab.Screen
+            options={{tabBarLabel: 'Рисовать'}}
+            name="HomeStack"
+            component={HomeStack}
+        />
+        <BottomTab.Screen
+            options={{tabBarLabel: 'Сканировать'}}
+            name="CameraStack"
+            component={CameraStack}
+        />
+        <BottomTab.Screen
+            options={{tabBarLabel: 'История'}}
+            name="HistoryStack"
+            component={HistoryStack}
+        />
+        <BottomTab.Screen
+            options={{tabBarLabel: 'Справки'}}
+            name="MendeleevStack"
+            component={MendeleevStack}
+        />
+    </BottomTab.Navigator>
 );
 
 // drawer stack
 const Drawer = createDrawerNavigator();
 const DrawerStack = () => (
-  <Drawer.Navigator
-    screenOptions={{
-      drawerStyle: {outerWidth: 200},
-      drawerPosition: 'left',
-      headerShown: false,
-    }}
-    drawerContent={({navigation}) => (
-      <DrawerContainer navigation={navigation} />
-    )}>
-    <Drawer.Screen name="Tab" component={TabNavigator} />
-  </Drawer.Navigator>
+    <Drawer.Navigator
+        screenOptions={{
+            drawerStyle: {outerWidth: 200},
+            drawerPosition: 'left',
+            headerShown: false,
+        }}
+        drawerContent={({navigation}) => (
+            <DrawerContainer navigation={navigation} />
+        )}>
+        <Drawer.Screen name="Tab" component={TabNavigator} />
+    </Drawer.Navigator>
 );
 
 // Manifest of possible screens
 const RootNavigator = () => (
-  <Stack.Navigator
-    initialRouteName="LoginStack"
-    screenOptions={{headerShown: false}}>
-    <Stack.Screen name="LoginStack" component={LoginStack} />
-    <Stack.Screen name="DrawerStack" component={DrawerStack} />
-  </Stack.Navigator>
+    <Stack.Navigator
+        initialRouteName="LoginStack"
+        screenOptions={{headerShown: false}}>
+        <Stack.Screen name="LoginStack" component={LoginStack} />
+        <Stack.Screen name="DrawerStack" component={DrawerStack} />
+    </Stack.Navigator>
 );
 
 const AppNavigator = () => (
-  <NavigationContainer>
-    <RootNavigator />
-  </NavigationContainer>
+    <NavigationContainer>
+        <RootNavigator />
+    </NavigationContainer>
 );
 
 const styles = StyleSheet.create({
-  headerTitleStyle: {
-    fontWeight: 'bold',
-    textAlign: 'center',
-    alignSelf: 'center',
-    color: 'black',
-  },
-  iconStyle: {tintColor: AppStyles.color.tint, width: 30, height: 30},
+    headerTitleStyle: {
+        fontWeight: 'bold',
+        textAlign: 'center',
+        alignSelf: 'center',
+        color: 'black',
+    },
+    iconStyle: {tintColor: AppStyles.color.infochem, width: 30, height: 30},
 });
 
 export default AppNavigator;
