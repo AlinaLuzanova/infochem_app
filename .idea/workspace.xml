@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/App-Icon-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/AppIcon.appiconset/иконка приложения.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/Image.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreen.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreen.imageset/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreenBackground.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/AppInfochem/Images.xcassets/SplashScreenBackground.imageset/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/PersonalArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/periodicTable/MendellevScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/periodicTable/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/styles/funcoesOrganicasStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/assets/styles/funcoesOrganicasStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DrawerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MendeleevDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MendeleevStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/getBgColorByGroupBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/getBgColorByGroupBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigations/AppNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/AppNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/CameraScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CameraScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HistoryScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HistoryScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/LoginScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/MendeleevScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MendeleevScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ModalScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ModalScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/SignupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SignupScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" afterDir="false" />
-    </list>
+    <list default="true" id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="Appearance changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +18,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -133,11 +99,32 @@
       <workItem from="1682264634962" duration="1258000" />
       <workItem from="1682274407190" duration="915000" />
       <workItem from="1682276077453" duration="1770000" />
-      <workItem from="1693224299016" duration="15146000" />
+      <workItem from="1693224299016" duration="15468000" />
     </task>
+    <task id="LOCAL-00001" summary="Appearance changes">
+      <option name="closed" value="true" />
+      <created>1693351940065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693351940065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Appearance changes">
+      <option name="closed" value="true" />
+      <created>1693352067570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693352067570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Appearance changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appearance changes" />
   </component>
 </project>
