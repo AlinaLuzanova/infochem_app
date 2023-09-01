@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="Appearance changes" />
+    <list default="true" id="0daabf34-4692-4678-9626-5d5cd5b91577" name="Changes" comment="Appearance changes">
+      <change afterPath="$PROJECT_DIR$/assets/assets/images/ITMOlogoRUS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DrawerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MendeleevDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MendeleevStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MendeleevStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigations/AppNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/AppNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/CameraScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/CameraScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +75,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/assets/images/SolucoesEMisturas" />
       <recent name="$PROJECT_DIR$/src/screens/periodicTable" />
     </key>
   </component>
@@ -99,7 +110,8 @@
       <workItem from="1682264634962" duration="1258000" />
       <workItem from="1682274407190" duration="915000" />
       <workItem from="1682276077453" duration="1770000" />
-      <workItem from="1693224299016" duration="15468000" />
+      <workItem from="1693224299016" duration="22611000" />
+      <workItem from="1693489244675" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Appearance changes">
       <option name="closed" value="true" />
@@ -117,11 +129,30 @@
       <option name="project" value="LOCAL" />
       <updated>1693352067570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Appearance changes">
+      <option name="closed" value="true" />
+      <created>1693352169096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693352169096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Appearance changes" />

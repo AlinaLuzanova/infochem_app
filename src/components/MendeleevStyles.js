@@ -4,6 +4,8 @@ import {AppStyles} from "../AppStyles";
 
 export const MendeleevStyles = StyleSheet.create({
   container: {
+    height: '100%',
+    width: '100%',
     paddingTop: 10,
     paddingRight: 5,
     flex: 1,

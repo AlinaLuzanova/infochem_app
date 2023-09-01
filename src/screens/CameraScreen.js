@@ -1,28 +1,42 @@
-import React, {useLayoutEffect} from 'react';
+import React, {useState, useEffect, useLayoutEffect} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Camera } from 'expo-camera'
-import {TouchableOpacity} from "react-native-gesture-handler";
-import {connect} from "react-redux";
-import {AppStyles} from "../AppStyles";
-const CameraScreen = ({navigation}) => {
+import { Camera } from 'expo-camera';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { connect } from 'react-redux';
+import { AppStyles } from '../AppStyles';
+
+const CameraScreen = ({ navigation }) => {
+    const [hasPermission, setHasPermission] = useState(null);
+
+    useEffect(() => {
+        (async () => {
+            const { status } = await Camera.requestPermissionsAsync();
+            setHasPermission(status === 'granted');
+        })();
+    }, []);
+
     useLayoutEffect(() => {
         navigation.setOptions({
             title: ' ',
         });
     }, []);
+
     return (
         <View style={styles.container}>
-            <Camera style={styles.camera}>
-                <Text style={styles.comment}>Поместите формулу в прямоугольник</Text>
-                <View style={styles.formula}></View>
-                <TouchableOpacity onPress={()=> {}} style={styles.snapContainerBig}>
-                    <TouchableOpacity onPress={()=> {}} style={styles.snapContainer}>
-                </TouchableOpacity>
-                </TouchableOpacity>
-            </Camera>
+            {hasPermission ? (
+                <Camera style={styles.camera}>
+                    <Text style={styles.comment}>Поместите формулу в прямоугольник</Text>
+                    <View style={styles.formula}></View>
+                    <TouchableOpacity onPress={() => {}} style={styles.snapContainerBig}>
+                        <TouchableOpacity onPress={() => {}} style={styles.snapContainer}></TouchableOpacity>
+                    </TouchableOpacity>
+                </Camera>
+            ) : (
+                <Text>No access to camera</Text>
+            )}
         </View>
     );
-}
+};
 
 const styles = StyleSheet.create({
     container:{
@@ -77,4 +91,5 @@ const styles = StyleSheet.create({
 const mapStateToProps = (state) => ({
     user: state.auth.user,
 });
+
 export default connect(mapStateToProps)(CameraScreen);

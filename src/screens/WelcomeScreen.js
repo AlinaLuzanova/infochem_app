@@ -5,8 +5,10 @@ import {
   View,
   StyleSheet,
   TouchableOpacity,
+  Image
 } from 'react-native';
-import {AppStyles} from '../AppStyles';
+import {AppIcon, AppStyles} from '../AppStyles';
+
 
 function WelcomeScreen({navigation}) {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,6 +33,7 @@ function WelcomeScreen({navigation}) {
   }
   return (
     <View style={styles.container}>
+      <Image style={styles.IMGlogo} source={assets/assets/images/ITMOlogoRUS.png}></Image>
       <Text style={styles.title}>Thotex</Text>
       <Text style={styles.description}>распознавание молекул по фото</Text>
       <TouchableOpacity
@@ -57,6 +60,9 @@ const styles = StyleSheet.create({
   logo: {
     width: 200,
     height: 200,
+  },
+  IMGlogo:{
+    width:20,
   },
   title: {
     fontSize: 55,

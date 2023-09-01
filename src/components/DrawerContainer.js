@@ -20,13 +20,37 @@ export default function DrawerContainer({navigation}) {
           }
         />
         <MenuButton
-            title="Личный кабинет"
+            title="Нарисовать молекулу"
             source={AppIcon.images.logout}
             onPress={() => {
-              navigation.navigate('LoginStack');
+              navigation.navigate('DrawerStack');
             }
             }
         />
+          <MenuButton
+              title="Сканировать молекулу"
+              source={AppIcon.images.logout}
+              onPress={() => {
+                  navigation.navigate('CameraStack');
+              }
+              }
+          />
+          <MenuButton
+              title="История поиска"
+              source={AppIcon.images.logout}
+              onPress={() => {
+                  navigation.navigate('HistoryStack');
+              }
+              }
+          />
+          <MenuButton
+              title="Справки"
+              source={AppIcon.images.logout}
+              onPress={() => {
+                  navigation.navigate('MendeleevStack');
+              }
+              }
+          />
       </View>
     </View>
   );
